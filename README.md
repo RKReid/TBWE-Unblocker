@@ -1,8 +1,8 @@
 # TBWE Unblocker  
 A fork of LeafBrowser  
   
-##Status  
+## Status  
 I have not yet done anything with it  
   
-##Install  
+## Install  
 Soon you can install this from the webstore I hope  

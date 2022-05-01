@@ -2,7 +2,7 @@
 A fork of LeafBrowser  
   
 ## Status  
-I have not yet done anything with it  
+Well this project died fast. Apparently I need to pay google to publish this. I'm not doing that. 
   
 ## Install  
-Soon you can install this from the webstore I hope  
+:(

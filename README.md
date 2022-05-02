@@ -2,7 +2,8 @@
 A fork of LeafBrowser  
   
 ## Status  
-Well this project died fast. Apparently I need to pay google to publish this. I'm not doing that. 
-  
+It works
+
 ## Install  
-:(
+I need to find a way to allow people to install this without the webstore (because that costs money) and without dev mode (because that's blocked on chromebooks).
+

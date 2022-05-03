@@ -175,16 +175,7 @@ so get out anyways-->
         <div class="app-right">
           <div id="welcome">
             <div class="logo">
-			 <script>
-  const randimg = ["3d saul.gif", "19 dollar fortnite card 2.gif"];
-  var displayimage = randimg[Math.floor(Math.random()*randimg.length)];
-	
-	document.write('<img src="images/rick astley sun glasses 2.gif">');
-	document.write(displayimage);
-	document.write("displayimageeeeee");
-  
-  </script>
-              <img src="images/rick astley sun glasses 2.gif"/>
+              <img id="imgset" src="images/rick astley sun glasses 2.gif"/>
             </div>
             <div class="hints">
               <div class="hint selected visible">
@@ -234,5 +225,12 @@ so get out anyways-->
         </div>
       </div>
     </div>
+		<script>
+  const randimg = ["3d saul.gif", "19 dollar fortnite card 2.gif"];
+  var displayimage = randimg[Math.floor(Math.random()*randimg.length)];
+	document.getElementById('imgset').src = "images/random/" + displayimage;
+	
+  </script>
+
   </body>
 </html>

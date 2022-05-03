@@ -10,6 +10,7 @@ so get out anyways-->
     <script src="js/lib/jquery-2.1.4.min.js"></script>
     <script data-main="js/main" src="js/lib/require.js"></script>
   </head>
+ 
   <body>
     <div id="templates">
       <div data-template="tab-tree-node">
@@ -94,10 +95,10 @@ so get out anyways-->
               </div>
               <div class="buttons">
                 <div class="button button-cancel">
-                  Cancel
+                  Cancel :(
                 </div>
                 <div class="button button-ok">
-                  Ok
+                  Ok?
                 </div>
               </div>
             </div>
@@ -174,10 +175,20 @@ so get out anyways-->
         <div class="app-right">
           <div id="welcome">
             <div class="logo">
-              <img src="/images/rick astley sun glasses 2.gif"/>
+			 <script>
+  const randimg = ["3d saul.gif", "19 dollar fortnite card 2.gif"];
+  var displayimage = randimg[Math.floor(Math.random()*randimg.length)];
+	
+	document.write('<img src="images/rick astley sun glasses 2.gif">');
+	document.write(displayimage);
+	document.write("displayimageeeeee");
+  
+  </script>
+              <img src="images/rick astley sun glasses 2.gif"/>
             </div>
             <div class="hints">
               <div class="hint selected visible">
+			  
                 If the tab doesn't open, remove the "s" from <code>https://</code>.
               </div>
 <!-- newline -->

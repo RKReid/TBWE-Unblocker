@@ -7,12 +7,17 @@
 // KEY
 // themebody - the main body of the seach area
 // themetabbar - this is the left part of the program where tabs are managed
-  const themename = ["Default", "Rick Astley"];
-  const themebodylist = ["", "rick astley sun glasses 2.gif"];
-  const themetabbarlist = ["", ""];
+// themelogobackground - the background of the logo
+  const themename = ["Default", "Rick Astley", "Walter White Fortnite"];
+  const themebodylist = ["", "rick astley sun glasses 2.gif", "walter white fortnite dance.gif"];
+  const themetabbarlist = ["", "rick-roll-rick-ashley.gif", ""];
+  const themelogobglist = ["", "rick astley sun glasses 2.gif", ""];
 
-  var usertheme = 2;
-  document.getElementById('themebody').style = "background-image: url('images/themes/" + "rick astley sun glasses 2.gif" + "')";
+  var usertheme = 1;
+  document.getElementById('themebody').style = "background-repeat: no-repeat; background-size: cover; background-image: url('images/themes/" + themebodylist[usertheme] + "')";
+  document.getElementById('themetabbar').style = "background-repeat: no-repeat; background-size: cover; background-image: url('images/themes/" + themetabbarlist[usertheme] + "')";
+  document.getElementById('themelogobg').style = "background-repeat: no-repeat; background-size: cover; background-image: url('images/themes/" + themelogobglist[usertheme] + "')";
+  // document.getElementById('themelogobackground').style = "background-repeat: no-repeat; background-size: cover; background-image: url('images/themes/" + themelogobackgroundlist[usertheme] + "')";
 
 
 // document.getElementById('imgset').style = "background-image: url('images/random/" + displayimage + "')";
